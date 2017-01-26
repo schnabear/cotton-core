@@ -1,0 +1,24 @@
+{
+    "name": "schnabear/cotton-core",
+    "description": "Wow! So small! Much framework!",
+    "keywords": ["cotton", "framework", "wow"],
+    "homepage": "https://github.com/schnabear/cotton-core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "schnabear"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": { "Cotton\\": "src" }
+    }
+}
